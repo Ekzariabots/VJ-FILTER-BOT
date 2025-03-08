@@ -10,7 +10,7 @@ from Script import script
 id_pattern = re.compile(r'^.\d+$')
 
 # Bot information
-SESSION = environ.get('SESSION', 'TechVJBot')
+SESSION = environ.get('SESSION', 'Ek_Zaria_Movies_bot')
 API_ID = int(environ.get('API_ID', '23125734'))
 API_HASH = environ.get('API_HASH', '4b2e6a4bc570391eeab4e2c453b4aad3')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
@@ -60,8 +60,8 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://robankumar42:kB88BYscwYN06CtN@cluster0.g7do6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # IF Multiple Database Is False Then Fill Only This Database Url.
-DATABASE_NAME = environ.get('DATABASE_NAME', "techvjclonefilterbot")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'vjcollection')
+DATABASE_NAME = environ.get('DATABASE_NAME', "Ek_Zaria_Movies_bot")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Ekzaria')
 
 MULTIPLE_DATABASE = bool(environ.get('MULTIPLE_DATABASE', False)) # Set True or False
 
@@ -88,9 +88,9 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', 'thdhdgdjjvsskkl') # Pu
 
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+cK8YltrOAZViNjA1')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Ekzaria')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Ek_Zaria_Movies_bot')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'vj_bot_disscussion') # Support Chat Link Without https:// or @
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'ML_owner') # Support Chat Link Without https:// or @
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/+cK8YltrOAZViNjA1')
 
 # True Or False
